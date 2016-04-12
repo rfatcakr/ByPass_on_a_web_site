@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TextBox1.Text" xml:space="preserve">
+    <value>&lt;/dd&gt;
+			&lt;dt&gt;Kaynak&lt;/dt&gt;
+			&lt;dd&gt;İthalat yoluyla kaydedilen IMEI&lt;/dd&gt;
+			&lt;dt&gt;Sorgu Tarihi&lt;/dt&gt;
+			&lt;dd&gt;08/02/2013&lt;/dd&gt;
+			&lt;dt&gt;Marka/Model&lt;/dt&gt;
+			&lt;dd&gt;Üretici: Nokia Corporation Pazar Adı: Nokia 1110 Model Bilgileri: RH-70&lt;/dd&gt;
+		&lt;/dl&gt;
+		&lt;div class="disclaimerContainer"&gt;Bu sorgulama bilgilendirme amaçlıdır,
+			kesin kayıt değildir. İspat hukuku açısından geçerliliği
+			bulunmamaktadır.&lt;/div&gt;
+	&lt;/div&gt;
+	 &lt;/section&gt;
+
+&lt;/section&gt;
+&lt;footer&gt;
+	&lt;nav id="bottomLinksBlock" role="navigation"&gt;
+		&lt;h2 class="sectionTitle"&gt;Sayfa Sonu Bağlantıları&lt;/h2&gt;
+		&lt;ul id="bottomLinks"&gt;
+			&lt;li class="bottomLinksGroup"&gt;
+				&lt;h3&gt;e-Devlet Kapısı&lt;/h3&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href="/"&gt;Ana Sayfa&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="/bilgilendirme?konu=siteHakkinda"&gt;Hakkımızda&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="/bilgilendirme?konu=yasalBildirim"&gt;Yasal	Bildirim&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="/bilgilendirme?konu=gizlilik"&gt;Gizlilik ve Kullanım&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li class="bottomLinksGroup"&gt;
+				&lt;h3&gt;e-Hizmetler&lt;/h3&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href="/hizmetler" accesskey="h"&gt;Tüm Hizmetler&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="/cok-kullanilan-hizmetler"&gt;Sık Kullanılan Hizmetler&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="/yeni-eklenen-hizmetler"&gt;Yeni Eklenen Hizmetler&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="/belediyeler"&gt;Belediye Hizmetleri&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li class="bottomLinksGroup"&gt;
+				&lt;h3&gt;Kamu Kurumları&lt;/h3&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href="/kurumlar" accesskey="k"&gt;Ana Kurumlar&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="/belediyeler"&gt;Belediyeler&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="/kurumlar"&gt;Tüm Kurumlar&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="/kamu-hizmet-envanteri-vatandas"&gt;Kamu Hizmet Envanteri&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li class="bottomLinksGroup"&gt;
+				&lt;h3&gt;Size Özel&lt;/h3&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href="/bana-ozel"&gt;Benim Sayfam&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="/kisisel-bilgiler"&gt;Kisişel Bilgiler&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="/sifre-ve-guvenlik"&gt;Şifre İşlemleri&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li class="bottomLinksGroup"&gt;
+				&lt;h3&gt;Yardım&lt;/h3&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href="/bilgilendirme?konu=yardim"&gt;Genel Yardım&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="/bilgilendirme?konu=sikcaSorulanlar" accesskey="5"&gt;Sıkça Sorulanlar&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="/bilgilendirme?konu=entegre"&gt;Hizmetler Hakkında&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="/bilgilendirme?konu=erisilebilirlik"&gt;Erişilebilirlik&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li class="bottomLinksGroup"&gt;
+				&lt;h3&gt;İletişim&lt;/h3&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href="/iletisim" accesskey="9"&gt;Bize Yazın&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="/iletisim"&gt;Çağrı Merkezi&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="/bimer-basvuru"&gt;Bimer Başvurusu &lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="/bilgilendirme?konu=guvenlik"&gt;Güvenliğiniz İçin&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;div id="bottomBannersBlock"&gt;
+			&lt;ul id="bottomBannersList"&gt;
+				&lt;li class="callCenter"&gt;&lt;a href="#"&gt; e-Devlet Kapısı ile ilgili tüm sorular için &lt;strong&gt;160&lt;/strong&gt;'ı arayınız&lt;/a&gt;&lt;/li&gt;
+				&lt;li class="informationSecurity"&gt;&lt;a href="#"&gt; Bilgi Güvenliğiniz Bizim İçin Önemli &lt;/a&gt;&lt;/li&gt;
+				&lt;li class="integratedServices"&gt;&lt;a href="#"&gt; e-ntegre Çalışıyoruz &lt;/a&gt;&lt;/li&gt;
+				&lt;li class="ipv6Compatible"&gt;e-Devlet Kapısı IPv6 uyumludur&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
+	&lt;/nav&gt;
+	&lt;div data-pagecache="0.05440878868103" id="copyrightBlock"	role="contentinfo"&gt;
+		&lt;img src="https://static.turkiye.gov.tr/themes/ankara/images/bbubak.png" width="128" height="64" alt=""&gt;&lt;em&gt;e-Devlet Kapısı’nın kurulması, işletilmesi ve yönetilmesi görevi, &lt;a href="http://www.basbakanlik.gov.tr"&gt;Başbakanlık&lt;/a&gt; adına 
+		&lt;a href="http://www.ubak.gov.tr/"&gt;Ulaştırma, Denizcilik ve Haberleşme Bakanlığı &lt;/a&gt;tarafından yürütülmektedir.&lt;/em&gt;
+		&lt;time datetime="2012-01-01"&gt;2012&lt;/time&gt;
+		, Ankara - Tüm Hakları Saklıdır. 
+		&lt;a href="#" accesskey="8"&gt;Gizlilik, Kullanım ve Telif Hakları&lt;/a&gt; bildiriminde belirtilen kurallar
+		çerçevesinde hizmet sunulmaktadır.
+	&lt;/div&gt;
+&lt;/footer&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="TextBox3.Text" xml:space="preserve">
+    <value>&lt;!doctype html&gt;
+&lt;!--[if lt IE 7]&gt; &lt;html class="no-js ie6 oldie" lang="tr"&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 7]&gt;&lt;html class="no-js ie7 oldie" lang="tr"&gt;&lt;![endif]--&gt;
+&lt;!--[if IE 8]&gt;&lt;html class="no-js ie8 oldie" lang="tr"&gt;&lt;![endif]--&gt;
+&lt;!--[if gt IE 8]&gt;&lt;!--&gt;
+&lt;html class="no-js" lang="tr"&gt;
+&lt;!--&lt;![endif]--&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;meta name="viewport" content="width=device-width,initial-scale=1"&gt;
+&lt;meta name="description" content="e-Devlet Kapısı'nı kullanarak kamu kurumlarının sunduğu hizmetlere tek noktadan, hızlı ve güvenli bir şekilde ulaşabilirsiniz."&gt;
+&lt;meta name="keywords" content="e-devlet, türkiye.gov.tr, e-devlet kapısı, edevlet, e devlet, türkiyegovtr" /&gt;
+&lt;meta name="robots" content="index,follow"&gt;
+&lt;title&gt;IMEI Sorgulama - Devletin Kısayolu | www.türkiye.gov.tr &lt;/title&gt;
+&lt;link rel="icon" href="https://static.turkiye.gov.tr/themes/ankara/images/favicons/favicon.ico" type="image/x-icon"&gt;
+&lt;link rel="shortcut icon" href="https://static.turkiye.gov.tr/themes/ankara/images/favicons/favicon.ico" type="image/x-icon"&gt;
+&lt;link rel="apple-touch-icon" href="https://static.turkiye.gov.tr/themes/ankara/images/favicons/apple-touch-icon.png"&gt;
+&lt;link rel="apple-touch-icon" sizes="72x72" href="https://static.turkiye.gov.tr/themes/ankara/images/favicons/apple-touch-icon-72x72.png"&gt;
+&lt;link rel="apple-touch-icon" sizes="114x114" href="https://static.turkiye.gov.tr/themes/ankara/images/favicons/apple-touch-icon-114x114.png"&gt;
+&lt;link rel="stylesheet" href="https://static.turkiye.gov.tr/themes/ankara/css/001-boiler.css"&gt;
+&lt;script src="https://static.turkiye.gov.tr/themes/ankara/js/t001-modernizr.js"&gt;&lt;/script&gt;
+&lt;script src="https://static.turkiye.gov.tr/themes/ankara/js/t002-respond.js"&gt;&lt;/script&gt;
+&lt;script src="https://static.turkiye.gov.tr/themes/ankara/js/t.js?version=0.2"&gt;&lt;/script&gt;
+&lt;script src="https://static.turkiye.gov.tr/themes/ankara/js/b001-initial.js"&gt;&lt;/script&gt;
+&lt;script src="https://static.turkiye.gov.tr/themes/ankara/js/b002-jquery.js"&gt;&lt;/script&gt;
+&lt;script src="https://static.turkiye.gov.tr/themes/ankara/js/b003-facebox.js"&gt;&lt;/script&gt;
+&lt;script src="https://static.turkiye.gov.tr/themes/ankara/js/b009-common.js"&gt;&lt;/script&gt;
+&lt;script src="https://static.turkiye.gov.tr/themes/ankara/js/form.js"&gt;&lt;/script&gt;
+&lt;link href="https://static.turkiye.gov.tr/themes/ankara/css/007-screen.css" rel="stylesheet" type="text/css"&gt;
+&lt;link href="https://static.turkiye.gov.tr/themes/ankara/css/009-hacks.css" rel="stylesheet" type="text/css"&gt;
+&lt;/head&gt;
+&lt;body data-token="YRN0HH-8EW3N5-1HE5PX-7IP3SQ-YI5EY6-O8C5IZ"&gt;
+&lt;header role="banner"&gt;
+	&lt;img src="https://static.turkiye.gov.tr/themes/ankara/images/printhead.png" style="display: none" alt="" class="printHeader"&gt;
+	&lt;h1 id="brandingBlock"&gt;
+		&lt;a id="homeLink" href="/" title="Ana Sayfa'ya Dönüş"&gt;www.türkiye.gov.tr&lt;/a&gt;
+	&lt;/h1&gt;
+	&lt;nav id="accesibilityBlock" class="visuallyhidden"&gt;
+		&lt;h2&gt;Erişilebilirlik Hakkında&lt;/h2&gt;
+		Bu site içerisinde kısayol tuşlarını kullanarak daha hızlı hareket edebilirsiniz. 
+		&lt;a href="#" accesskey="0"&gt;Kısayol tuşları hakkında bilgi&lt;/a&gt;
+		&lt;ul&gt;
+			&lt;li&gt;&lt;a href="#contentStart" accesskey="s"&gt;İçeriğe Git&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="/" accesskey="1"&gt;Ana Sayfa&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/nav&gt;
+	 &lt;section id="personalBlock"&gt;
+	&lt;h2 class="sectionTitle"&gt;Kullanıcı Menüsü&lt;/h2&gt;
+	&lt;span&gt;Hoş geldiniz, sunulan hizmetlerden faydalanmak için sisteme giriş	yapmalısınız.&lt;/span&gt; &lt;a href="https://giris.turkiye.gov.tr/Giris3/" id="loginLink"&gt;Sisteme Giriş&lt;/a&gt;
+&lt;/section&gt;
+ 
+	&lt;section id="searchBlock" role="search"&gt;
+	&lt;h2 class="sectionTitle"&gt;Hızlı Arama&lt;/h2&gt;
+	&lt;form name="searchForm" method="get" action="/arama"&gt;
+		&lt;label accesskey="4" for="searchField"&gt;Aranan Terim&lt;/label&gt; 
+		&lt;input id="searchField" name="aranan" type="text" placeholder="Hizmet Adı, Anahtar Kelime, Plaka No…"/&gt; 
+		&lt;input id="searchButton" type="submit" value="Ara"/&gt;
+	&lt;/form&gt;
+&lt;/section&gt; 
+	&lt;nav id="sectionsBlock" role="navigation"&gt;
+	&lt;h2 class="sectionTitle"&gt;Ana Bölümler&lt;/h2&gt;
+	&lt;ul&gt;
+		&lt;li&gt;&lt;a href="/hizmetler" class="eServicesLink"&gt;e-Hizmetler&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="/kurumlar" class="agenciesLink"&gt;Kurumlar&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="/belediyeler" class="agenciesLink"&gt;Belediyeler&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="/iletisim" class="contactLink"&gt;İletişim&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/header&gt;
+
+&lt;section id="serviceBlock" class="" role="main"&gt;
+	&lt;h2 class="serviceTitle"&gt;
+	Bilgi Teknolojileri ve İletişim Kurumu&lt;em&gt;IMEI Sorgulama&lt;/em&gt;
+&lt;/h2&gt;
+&lt;aside role="complementary" class="serviceInfo"&gt;
+	&lt;a data-confirm="true" class="back" href="/hizmetler"&gt;Hizmet Listesi'ne Geri Dön&lt;/a&gt; 
+		&lt;div class="serviceDetails"&gt;
+		&lt;img width="64" height="64" alt="" src="https://static.turkiye.gov.tr/themes/ankara/images/logos/64px/318.png" class="agencyLogo" /&gt;   		&lt;p class="averageDuration"&gt;Bu işlem için yaklaşık 1 dakikanızı ayırmalısınız.&lt;/p&gt;
+						&lt;p class="progressStatus"&gt;Bu işlem toplam 2 aşamalıdır. &lt;br /&gt; Şu anda	2. aşamadasınız.&lt;/p&gt;
+		&lt;ol class="progressMeter"&gt;
+			 
+												&lt;li class="complete"&gt;&lt;a href="/imei-sorgulama"&gt;Sorgulama Formu&lt;/a&gt;&lt;/li&gt;  
+						 
+										 
+													 
+						&lt;li class="current"&gt;Sorgulama Sonucu&lt;/li&gt; 		&lt;/ol&gt;
+			&lt;/div&gt;
+	&lt;ul class="serviceOptions"&gt;
+		 		&lt;li&gt;&lt;a href="/kurumlar?kurumKodu=318"&gt;Kuruma Ait Diğer Hizmetler&lt;/a&gt;
+		&lt;/li&gt;
+			&lt;/ul&gt;
+&lt;/aside&gt;
+&lt;script type="text/javascript"&gt;
+    if(T.AJAX==undefined){
+    	document.write("&lt;" +"script type=\"text/javascript\" src=\"https://static.turkiye.gov.tr/themes/ankara/js/ajax.js?version=0.2\""+"&gt;"+"&lt;"+"/script&gt;");
+    }
+    T.add=function(_this){
+    	T.AJAX.add('kurumKodu',318);
+    	T.AJAX.add('hizmetKodu',_this.getAttribute('data-hizmetKodu'));
+    	T.AJAX.connection('/favorite?submit','POST');
+    }
+    T.setFav=function(_json){
+        if(_json.returns){
+        	var obj = T.$('_fav');
+        	if(_json.data.add==1)
+        	    obj.innerHTML=obj.getAttribute('data-removetext');
+        	else
+        	    obj.innerHTML=obj.getAttribute('data-addtext');
+        }
+        if(_json.messageArr.message){
+            alert(_json.messageArr.message);
+        }
+    }
+&lt;/script&gt;
+&lt;aside class="serviceHelper"&gt;
+		&lt;div id="floatingHelp"&gt;
+		&lt;div class="fieldInfo"&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/aside&gt;
+&lt;section class="serviceContainer"&gt;
+	 	&lt;ul class="contentToolbar"&gt;
+		&lt;li&gt;&lt;a class="print" href="javascript:window.print()"&gt;Yazdır&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a class="back" href="/imei-sorgulama"&gt;Geri&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+		&lt;div class="resultContainer"&gt;
+		&lt;dl class="compact"&gt;
+			&lt;dt&gt;IMEI&lt;/dt&gt;
+			&lt;dd&gt;359768007101008&lt;/dd&gt;
+			&lt;dt&gt;Durum&lt;/dt&gt;
+			&lt;dd&gt;</value>
+  </data>
+  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="StatusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>106, 17</value>
+  </metadata>
+  <metadata name="sagci.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>223, 17</value>
+  </metadata>
+  <metadata name="SaveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>302, 17</value>
+  </metadata>
+</root>
